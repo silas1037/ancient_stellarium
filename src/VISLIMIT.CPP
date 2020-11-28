@@ -41,7 +41,7 @@ and make proper header files.
 */
 
 #include <math.h>
-#include "vislimit.h"
+#include "VISLIMIT.H"
 #include <stdio.h>
 
 #define MAG_TO_BRIGHTNESS( X) (exp( -.4 * (X) * LOG_10))

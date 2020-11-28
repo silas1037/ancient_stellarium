@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * Inspired by the s_gui.h by Chris Laurel <claurel@shatters.net>
  * in his Open Source Software Celestia
  *

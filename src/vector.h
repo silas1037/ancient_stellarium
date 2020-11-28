@@ -20,7 +20,7 @@
 
 #ifndef __VEC3T__
 #define __VEC3T__
-
+#include <vector>
 #include <math.h>
 
 #ifndef __VEC_T__

@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -37,7 +37,7 @@ Nebula::~Nebula()
 }
 
 int Nebula::Read(FILE * catalogue)
-// Lis les infos de la nébuleuse dans le fichier et calcule x,y et z;
+// Lis les infos de la nÃ©buleuse dans le fichier et calcule x,y et z;
 {   int rahr;
     float ramin;
     int dedeg;
@@ -96,7 +96,7 @@ void Nebula::Draw()
     glEnable(GL_TEXTURE_2D);
     glEnable(GL_BLEND);
     glPushMatrix();
-    glMultMatrixf(matTransfo);          // recuperation de la matrice calculé au chargement
+    glMultMatrixf(matTransfo);          // recuperation de la matrice calculÃ© au chargement
 
     float cmag=(1-Mag/12)*2;
     glColor3f(cmag,cmag,cmag);

@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -127,7 +127,8 @@ const char * StdWin::getTitle() const
 }
 
 void StdWin::setTitle(char * _title)
-{   strncpy(title,_title,127);
+{
+//    strncpy(title,_title,127);
 }
 
 

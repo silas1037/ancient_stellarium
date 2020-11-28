@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -41,7 +41,7 @@ Star::~Star()
 }
 
 int Star::Read(FILE * catalog)
-// Lis les infos de l'étoile dans le fichier et calcule x,y et z;
+// Lis les infos de l'Ã©toile dans le fichier et calcule x,y et z;
 {  
     char strTmp[20];
     char ligne[50];

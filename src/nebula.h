@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -53,7 +53,7 @@ private:
     float Taille;           // Taille en minute d'arc
     char Constellation[5];  // Constellation
     s_texture * nebTexture; // Texture
-    float RayonPrecalc;     // Taille Précalculée
+    float RayonPrecalc;     // Taille PrÃ©calculÃ©e
 
 };
 

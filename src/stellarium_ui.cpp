@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -785,8 +785,8 @@ Boston, MA  02111-1307, USA.\n"
     TimeFF = new Labeled_Button("\3\3");
     TimeFF->reshape(vec2_i(btXSize*5+5,0),vec2_i(btXSize,btYSize));
     TimeFF->setOnClicCallback(TimeControlBtOnClicCallback);
-
-    TimeControlWin->reshape(vec2_i(gc->winW-1, gc->winH)-TimeControlWin->getSize(),TimeControlWin->getSize());
+//silas
+//    TimeControlWin->reshape(vec2_i(gc->winW-1, gc->winH)-TimeControlWin->getSize(),TimeControlWin->getSize());
 
     TimeControlContainer->addComponent(TimeFRW);
     TimeControlContainer->addComponent(TimeRW);
@@ -1081,7 +1081,7 @@ void HandleNormalKey(unsigned char key, int state)
                         BtCardinalPoints->setActive(global.FlagCardinalPoints);
                         break;
             case '*' :
-            case 'µ' :  global.FlagAtmosphere=!global.FlagAtmosphere;
+            case 'Âµ' :  global.FlagAtmosphere=!global.FlagAtmosphere;
                         BtAtmosphere->setActive(global.FlagAtmosphere);
                         break;
             case 'R' :

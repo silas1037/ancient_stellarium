@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -506,7 +506,7 @@ void DrawDecor(int nb)
     glEnable(GL_TEXTURE_2D);
     glEnable(GL_BLEND);
 
-    float delta=1.98915/nb; // environ egal à sin((float)(PI/8))/cos((float)(PI/8))*10/2;
+    float delta=1.98915/nb; // environ egal Ã  sin((float)(PI/8))/cos((float)(PI/8))*10/2;
     for (int ntex=0;ntex<4*nb;ntex++)
     {   
         glBindTexture(GL_TEXTURE_2D, texIds[31+ntex%4]->getID());

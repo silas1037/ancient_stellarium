@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -46,7 +46,7 @@ char * removeEndSpaces1(char * str)
 }
 
 int constellation::Read(FILE *  fic, Star_mgr * _VouteCeleste)
-// Lis les infos de la constellation et récupère les x,y et z des etoiles
+// Lis les infos de la constellation et rÃ©cupÃ¨re les x,y et z des etoiles
 // Le fichier des constellation doit etre fini sur une ligne vide (faire entree sur la derniere ligne quoi....)
 {   char buff[400];
     unsigned int HR;

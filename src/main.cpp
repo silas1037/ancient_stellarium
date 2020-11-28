@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -24,6 +24,8 @@
 #include <GLUT/glut.h>
 #else
 #include <GL/glut.h>
+//#include <GL/gl.h>
+//#include <GL/glu.h>
 #endif
 
 #include "stellarium.h"
@@ -49,7 +51,7 @@ Nebula_mgr * messiers;                // Class to manage the messier objects
 Planet_mgr * SolarSystem;             // Class to manage the planets
 s_texture * texIds[200];              // Common Textures
 
-static timeAtmosphere=0;
+static int timeAtmosphere=0;
 
 void init();
 
@@ -412,6 +414,9 @@ void init()
 // ***************************  Main  **********************************
 int main (void)
 {   
+    int argc = 0;
+    char** argv;
+    glutInit(&argc, argv);
     drawIntro();                                            // Print the console logo
     loadParams();                                           // Load the params from config.txt
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
@@ -432,7 +437,8 @@ int main (void)
         }
     }
     else                                                    // Windowed mode
-    {  
+    {
+
 	    glutCreateWindow(APP_NAME);
         glutFullScreen();                                   // Windowed fullscreen mode
         //global.X_Resolution = glutGet(GLUT_SCREEN_WIDTH);

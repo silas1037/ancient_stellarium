@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -32,7 +32,7 @@ public:
     virtual ~Planet_mgr();
     void Compute(double date, ObsInfo lieu);    // Compute the position of the planets
     void Draw();                                // Draw the planets...  
-    int Planet_mgr::Rechercher(vec3_t Pos);
+    int Rechercher(vec3_t Pos);
 	void loadTextures();
     // Return data about the selected planet
     void InfoSelect(vec3_t & XYZ_t, float & Ra,float & De, char * & Name, double & Distance, float & size) 

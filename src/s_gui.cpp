@@ -1,6 +1,6 @@
 /*
 * Stellarium
-* Copyright (C) 2002 Fabien Chéreau
+* Copyright (C) 2002 Fabien ChÃ©reau
 * Inspired by the gui.h by Chris Laurel <claurel@shatters.net>
 * in his Open Source Software Celestia
 *
@@ -20,7 +20,7 @@
 */
 
 #include "s_gui.h"
-
+#include <string.h>
 #include <stdio.h>
 
 using namespace std;

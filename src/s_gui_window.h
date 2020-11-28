@@ -1,6 +1,6 @@
 /* 
  * Stellarium
- * Copyright (C) 2002 Fabien Chéreau
+ * Copyright (C) 2002 Fabien ChÃ©reau
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -56,7 +56,7 @@ public:
     void setHideCallback(void (*_onHideCallback)(void))
     {   onHideCallback=_onHideCallback;
     }
-    void StdBtWin::render(GraphicsContext& gc);
+    void render(GraphicsContext& gc);
 protected:
     Button * closeBt;
 private:
